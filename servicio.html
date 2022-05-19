@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Servicio Post-Venta</title>
+    <link rel="stylesheet" href="style.css" />
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="banner">
+            <img src="imagenes/logov.jpg" alt="Logo de Techcology"/>
+        </div>
+               
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="centros.html">Centros de Acopio</a></li>
+                <li><a href="nosotros.html">Nuestros Servicios</a></li>
+                <li><a href="servicio.html">Servicio Post-Venta</a></li>
+            </ul>
+		</nav>				
+    </header>
+    
+    <div class="container">
+                
+        <h2>Servicio Post-Venta</h2>
+                   
+        <form id="frmServicio" name="frmServicio" method="post" action="servicio1.php">
+            <br/>
+            <p>
+                Si alguno de los productos que adquirió con nosotros está presentando fallas, por favor háganoslo saber y nos pondremos en contacto  con usted lo más pronto posible.
+            </p>  
+            <br/><br/><br/>
+            <strong>&nbsp;&nbsp;Nombre:</strong> <input type="text" id="txtNombre" name="txtNombre" placeholder="Escriba su Nombre"/>
+            <br/><br/>
+            <strong>&nbsp;&nbsp;Correo:</strong> <input type="text" id="txtCorreo" name="txtCorreo" placeholder="Escriba su correo electrónico"/>
+            <br/><br/>
+            <strong>&nbsp;&nbsp;Equipo:</strong> <input type="text" id="txtEquipo" name="txtEquipo" placeholder="Equipo adquirido" />
+            <br/><br/>
+            <strong>&nbsp;&nbsp;Detalles del problema:</strong>
+            <textarea id="txtDescripcion" name="txtDescripcion" rows="10" cols="50" placeholder="Describa Brevemente el problema"></textarea>
+            <br/><br/>
+            <input type="submit" id="btnEnviar" name="btnEnviar" value="Enviar" />
+            <br/><br/>
+        </form>
+    </div>
+</body>
+</html>

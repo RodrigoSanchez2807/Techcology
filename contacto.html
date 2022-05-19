@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contáctanos</title>
+  <link rel="stylesheet" href="style.css" />
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="banner">
+            <img src="imagenes/logov.jpg" alt="Logo de Techcology"/>
+            
+            <!--<h1>Bienvenido a Techcology</h1>-->
+        </div>
+               
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="centros.html">Centros de Acopio</a></li>
+                <li><a href="nosotros.html">Nuestros Servicios</a></li>
+                <li><a href="servicio.html">Servicio Post-Venta</a></li>
+            </ul>
+		</nav>				
+    </header>
+
+    <div class="container">
+        
+        <h2>Contacto</h2>
+        <p>Si necesita información acerca de nosotros, le pedimos llenar el siguiente formulario y le responderemos a la brevedad.</p>
+
+        <form id="frmContacto" name="frmContacto" method="post" action="contacto1.php">
+            <strong>Nombre:</strong> <input type="text" id="txtNombre" name="txtNombre" placeholder="Escriba su Nombre"/>
+            <br/><br/>
+            <strong>Correo:</strong> <input type="text" id="txtCorreo" name="txtCorreo" placeholder="Escriba su Correo"/>
+            <br/><br/>
+            <strong>Empresa:</strong> <input type="text" id="txtEmpresa" name="txtEmpresa" placeholder="Nombre de la Empresa"/>
+            <br/><br/>
+            <strong>Dirección:</strong> <input type="text" id="txtDireccion" name="txtDireccion" placeholder="Escriba su Dirección"/>
+            <br/><br/><br/>
+            <input type="submit" id="btnEnviar" name="btnEnviar" value="Enviar" />
+            <br/><br/>
+        </form>
+        
+    </div>
+
+</body>
+</html>
